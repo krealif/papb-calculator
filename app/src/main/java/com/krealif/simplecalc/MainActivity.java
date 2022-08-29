@@ -69,9 +69,11 @@ public class MainActivity extends AppCompatActivity {
                 resultTextView.setText(String.valueOf(result));
             } else {
                 secondNumInput.setError("This field cannot be left empty");
+                resultTextView.setText("");
             }
         } else {
             firstNumInput.setError("This field cannot be left empty");
+            resultTextView.setText("");
         }
     }
 
