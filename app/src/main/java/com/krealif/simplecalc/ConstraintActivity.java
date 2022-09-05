@@ -1,15 +1,15 @@
 package com.krealif.simplecalc;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
-import android.text.Editable;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class ConstraintActivity extends AppCompatActivity {
 
     EditText firstNumInput, secondNumInput;
     Button additionBtn, subtractionBtn, multiplicationBtn, divisionBtn;
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_constraint);
 
         firstNumInput = findViewById(R.id.first_num);
         secondNumInput = findViewById(R.id.second_num);

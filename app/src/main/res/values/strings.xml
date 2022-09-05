@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">SimpleCalc</string>
     <string name="main_title">CALCULATOR</string>
+    <string name="addition">+</string>
+    <string name="subtraction">−</string>
+    <string name="multiplication">×</string>
+    <string name="division">÷</string>
 </resources>
